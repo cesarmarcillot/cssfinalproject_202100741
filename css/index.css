@@ -1,0 +1,537 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url("../fonts/poppins-black-webfont.woff2") format('woff2'),
+         url("../fonts/poppins-black-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar{
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(41, 40, 112);
+    color: white;
+    text-decoration: none;
+    height: 80px;
+}
+
+#logonav{
+    font-family:'poppinsblack';
+}
+
+.navbartext{
+    color: white;
+}
+.navbartext:hover{
+    color: white;
+}
+
+#reservebtn{
+    width: 100px;
+    padding: 10% 20%;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(239, 171, 71);
+    color: white;
+    margin-left: 15px;
+    
+
+}
+
+/*section1*/
+
+.section1{
+    height: 800px;
+    padding: 5%;
+    background-image: url(../images/oasis\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maincontent_s1{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+}
+.maincontent_s1 img{
+    width: 20%;
+    padding-bottom: 3%;
+}
+.maincontent_s1 h1{
+    font-family: 'poppinsblack';
+    padding-bottom: 3%;
+    font-size: 50px;
+}
+
+.buttoncontainer_s1{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5%;
+}
+.maincontent_s1 a{
+    padding: 1.5% 5.5%;
+    background-color: white;
+    text-decoration: none;
+    text-shadow: black;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 40, 112);
+}
+.maincontent_s1 a:hover{
+    background-color: rgb(30, 215, 96);
+    color: white;
+}
+.maincontent_s1 #button2:hover{
+    background-color: rgb(239, 171, 71);
+    color: white;
+}
+
+@media screen and (max-width:980px) and (min-width:240px) {
+    .maincontent_s1{
+        margin-top: 10%;
+    }
+    .buttoncontainer_s1{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .maincontent_s1 img{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+    .maincontent_s1 h1{
+        font-size: 50px;
+        margin-bottom: 8%;
+    }
+    .maincontent_s1 a{
+        padding: 5%;
+    }
+    #button1{
+        margin-bottom: 5%;
+    }
+}
+
+/*section2*/
+
+.section2{
+    height: 730px;
+    padding: 5%;
+    background-color: rgb(33, 37, 41)
+}
+
+.maincontent_s2{
+    display: flex;
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    height: 500px;
+}
+.column1_s2{
+    width: 100%;
+}
+.column1_s2 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    color: white
+}
+.column2_s2{
+    width: 100%;
+}
+.column2_s2 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    border-bottom: 3px solid rgb(239, 171, 71);
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+.column2_s2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.column2_s2 img{
+    width: 60%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width:980px) and (min-width:240px) {
+    .maincontent_s2{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .column1_s2 h2{
+        margin-bottom: 10%;
+    }
+    .column2_s2 img{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .section2{
+        height: 800px;
+        
+    }
+}
+
+/*section3*/
+
+.section3{
+    height: 700px;
+    padding: 5%;
+    background-image: url(../images/oasis\ bg\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maicontent_s3{
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    height: 500px;
+}
+.maicontent_s3 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: white;
+}
+.maicontent_s3 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    color: rgb(30, 215, 96);
+}
+.maicontent_s3 h4{
+    font-family: 'poppinsblack';
+    font-size: 25px;
+    color: white;
+}
+.maicontent_s3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width:980px) and (min-width:240px) {
+    .maicontent_s3{
+        margin-top: 100px;
+    }
+    .maicontent_s3 h3{
+        margin-bottom: 100px;
+    }
+}
+
+/*section4*/
+
+.section4{
+    height: 700px;
+    padding: 5%;
+}
+
+.maicontent_s4{
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    height: 500px;
+}
+.maicontent_s4 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.songscontainer_s4{
+    display: flex;
+    column-gap: 40px;
+}
+.songs_s4{
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+.songs_s4 img{
+    width: 20%;
+    margin-bottom: 30px;
+}
+.songs_s4 h3{
+    font-family: 'poppinsblack';
+    font-size: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.songs_s4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.button_s4{
+    padding: 5% 12%;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(239, 171, 71);
+    color: white;
+    justify-self: flex-end;
+}
+.button_s4:hover{
+    background-color: rgb(30, 215, 96);
+    color: white;
+}
+
+@media screen and (max-width:1080px) and (min-width:240px) {
+    .section4{
+        height: 1800px;
+    }
+    .maicontent_s4{
+        margin-top: 80px;
+    }
+    .songscontainer_s4{
+        flex-direction: column;
+    }
+    .songs_s4{
+        margin-bottom: 40%;
+    }
+    .button_s4{
+        padding: 5% 10%;
+        
+    }
+}
+
+/*section5*/
+
+.section5{
+    height: 700px;
+    padding: 5%;
+    background-image: url(../images/oasis\ bg\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maicontent_s5{
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    height: 500px;
+}
+.maicontent_s5 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.maicontent_s5 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+.maicontent_s5 a{
+    padding: 1.5% 4%;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(239, 171, 71);
+    color: white;
+    justify-self: flex-end;
+}
+.maicontent_s5 a:hover{
+    background-color: rgb(30, 215, 96);
+    color: white;
+    
+}
+@media screen and (max-width:1080px) and (min-width:240px) {
+    .maicontent_s5{
+        margin-top: 80px;
+    }
+    .maicontent_s5 a{
+        padding: 5% 10%;
+        text-decoration: none;
+        border-radius: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        background-color: rgb(239, 171, 71);
+        color: white;
+        justify-self: flex-end;
+    }
+}
+
+/*section6*/
+
+.section6{
+    height: 700px;
+    padding: 5%;
+}
+
+.maicontent_s6{
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    height: 500px;
+}
+.row1_s6{
+    display: flex;
+    margin-bottom: 5%;
+}
+.column1_s6{
+    flex-grow: 1;
+    width: 70%;
+}
+.column1_s6 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.column2_s6{
+    flex-grow: 1;
+    width: 100%;
+}
+.column2_s6 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.column2_s6 a{
+    padding: 2.5% 5%;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(239, 171, 71);
+    color: white;
+    justify-self: flex-end;
+}
+.column2_s6 a:hover{
+    background-color: rgb(30, 215, 96);
+    color: white;
+    
+}
+
+.concerts_s6{
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    column-gap: 15px;
+}
+.concerts_s6 img{
+    width: 25%;
+}
+
+@media screen and (max-width:1080px) and (min-width:240px) {
+    .section6{
+        height: 1800px;
+    }
+    .maicontent_s6{
+        margin-top: 60px;
+    }
+    .row1_s6{
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .concerts_s6{
+        flex-direction: column;
+    }
+    .column2_s6 a{
+        padding: 5% 10%;
+    }
+    .concerts_s6 img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*section7*/
+
+.section7{
+    height: 700px;
+    padding: 5%;
+    background-color: rgb(33, 37, 41);
+}
+.maicontent_s7{
+    display: flex;
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    height: 500px;
+}
+.column1_s7{
+    flex-grow: 1;
+    width: 100%;
+}
+.column1_s7 h2{
+    font-family: 'poppinsblack';
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.column1_s7 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+.socials{
+    margin-top: 25px;
+}
+.socials img{
+    width: 5%;
+    margin-right: 1%;
+}
+.column2_s7{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    row-gap: 15px;
+}
+.input_s7{
+    height: 60px;
+    border-radius: 15px;
+    border: 0.5px solid lightslategray;
+    padding: 2%;
+}
+#message_s7{
+    height: 150px;
+}
+.column2_s7 a{
+    padding: 2.5% 5%;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(239, 171, 71);
+    color: white;
+    justify-self: flex-end;
+    text-align: center;
+}
+
+@media screen and (max-width:1080px) and (min-width:240px) {
+    .maicontent_s7{
+        flex-direction: column;
+    }
+    .socials img{
+        width: 10%;
+        margin-right: 1%;
+    }
+    .column2_s7{
+        margin-top: 25px;
+    }
+    .column2_s7 a{
+        padding: 5% 10%;
+    }
+}
